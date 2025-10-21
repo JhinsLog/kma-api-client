@@ -14,9 +14,7 @@ public class KmaApiClient {
     private final OkHttpClient client;
     private final ObjectMapper objectMapper;
     private final String apiKey;
-
-    // 기상청 API 서비스들의 기본 URL
-    private final String baseUrl;
+    private final String baseUrl;   // 기상청 API 서비스들의 기본 URL
 
     public KmaApiClient() throws IOException {
         this.client = new OkHttpClient();
