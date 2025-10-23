@@ -31,3 +31,6 @@ replay_pid*
 
 # Properties
 application.properties
+
+# Build artifacts
+/build/
